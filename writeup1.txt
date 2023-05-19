@@ -1,0 +1,13 @@
+find the flags at 192.168.1.157
+
+'''
+when using nmap we find up that the ports 80,8000,8001 and 10000 are open
+at 8001 we find an online calculator
+with some simple rce we can find the flag at ../flag.txt caused by a non sanitized input
+
+system("cat ../flag.txt")
+
+'''
+
+
+FLAG_PWC_{qu4nd0_1_INput_NON_v13Ne_S4n1ficaTo_utIl1ZZar3_ev41_N0n_E_1a_SCElta_mI9li0re_!}
